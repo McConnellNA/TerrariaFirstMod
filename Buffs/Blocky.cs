@@ -8,7 +8,7 @@ namespace ExampleMod.Buffs
 	{
 		public override void SetDefaults() {
 			DisplayName.SetDefault("Blocky");
-			Description.SetDefault("Jumping power is increased WAAAAAAAAAAAAA");
+			Description.SetDefault("Jumping power is increased");
 			Main.debuff[Type] = true;
 			Main.buffNoSave[Type] = true;
 			Main.buffNoTimeDisplay[Type] = true;
